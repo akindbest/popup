@@ -64,6 +64,7 @@
     margin: 0;
 }
 
+
 @keyframes ani{
     0%{
         top: -100%;
@@ -71,4 +72,8 @@
     100%{
         top: 0%;
     }
+}
+
+.animate-modal{
+    animation: ani  2s forwards;
 }
