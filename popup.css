@@ -75,5 +75,16 @@
 }
 
 .animate-modal{
-    animation: ani  2s forwards;
+    animation: ani  0.5s forwards;
+}
+
+.confirm-div > p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.confirm-div > div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }

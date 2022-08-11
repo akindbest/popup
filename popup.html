@@ -9,14 +9,22 @@
   </head>
   <body>
     <p>hello world</p>
-    <button id="btn">click me</button>
+    <button id="btn">show alert</button>
+    <button id="btn-two" onclick="showModal(1)">show confirm</button>
     <div id="modal" class="modal">
-      <div class="close-div"></div>
+      <div class="close-div" onclick="closeModal()"></div>
       <div class="modal-content">
-        <span class="close-span">&times</span>
+        <span class="close-span" onclick="closeModal()">&times</span>
         <div class="alert-div">
-            <h3>message</h3>
-            <p>please wait ...</p>
+          <h3>message</h3>
+          <p>please wait ...</p>        
+        </div>
+        <div class="confirm-div">
+          <p>do you want to perform this task</p>
+          <div>
+            <button>ok</button>
+            <button>cancel</button>
+          </div>
         </div>
       </div>
     </div>
